@@ -1,0 +1,5 @@
+.venv-math/
+__pycache__/
+*.py[cod]
+.DS_Store
+

@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use these certificates, please cite this software and record the full Git commit."
+title: "Certificates for The Separation of Peeling and Rank Thresholds in Anisotropic Random Complexes"
+type: software
+authors:
+  - family-names: Yu
+    given-names: Xiyao
+    orcid: "https://orcid.org/0009-0006-2673-5269"
+repository-code: "https://github.com/PillowSoprano/anisotropic-random-complexes-certificates"
+url: "https://github.com/PillowSoprano/anisotropic-random-complexes-certificates"
+license: MIT
+version: 1.0.0
+date-released: 2026-08-16
