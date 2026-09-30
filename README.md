@@ -1,10 +1,18 @@
 # Certificates for anisotropic random complexes
 
-This code-only repository contains the exact and interval-arithmetic certificates for
+**Current manuscript (30 September 2026): _Exact Rank and Maxwell Thresholds in Anisotropic Random Complexes_.**
+This repository is the public base snapshot. The manuscript's Supporting Information
+(`AAP_Supporting_Information.zip`, indexed by `CERTIFICATE_INDEX.json`) includes the
+extended shape certificates for `3 <= c <= 200` and the global-maximiser certificates
+that complete the rank result for every fixed `c >= 3`. The uniform all-`c` shape
+condition remains open (see Conjecture 80); the all-`c` rank formula (Theorem 1) is
+unconditional, using the global-maximiser selection of Theorem 51.
+
+This code-only base snapshot was originally released for
 *The Separation of Peeling and Rank Thresholds in Anisotropic Random Complexes*. It contains
 no manuscript, proof appendix, PDF, materials-project file or submission source.
 
-## Certified statements
+## Certified statements in this base snapshot
 
 - Exact Bernstein coefficients certify the shape condition for `3 <= c <= 24`.
 - Outward-rounded interval arithmetic certifies strict peeling/Maxwell separation for
@@ -13,8 +21,6 @@ no manuscript, proof appendix, PDF, materials-project file or submission source.
 - An independent rational Sturm calculation verifies the shape condition for `3 <= c <= 9`.
 - A separately implemented `python-flint`/Arb calculation checks the complete peeling boxes
   for `c = 3, 4, 7, 24` and the tabulated Maxwell boxes for `c = 3, 4, 7`.
-
-The uniform all-`c` shape condition remains open.
 
 ## Reproduce
 
